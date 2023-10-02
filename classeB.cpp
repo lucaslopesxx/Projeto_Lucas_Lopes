@@ -42,4 +42,9 @@ public:
     {
         cout << "MB2" << endl;
     }
+
+    void MB3()
+    {
+        cout << "MB3" << endl;
+    }
 };
