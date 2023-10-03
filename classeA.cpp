@@ -6,6 +6,8 @@ class A
 private:
     int A1;
     float A2;
+    int A;
+    int B;
 
 public:
     // Construtor
@@ -32,6 +34,12 @@ public:
         A2 = a2;
     }
 
+    int getSoma(int a, int b)
+    {
+        A = a;
+        B = b;
+    }
+
     // Métodos MA1 e MA2
     void MA1()
     {
@@ -46,5 +54,11 @@ public:
     void MA3()
     {
         cout << "Alteração a classe A partir do clone" << endl;
+    }
+
+    int getSoma(int a, int b)
+    {
+        int soma = a + b;
+        return soma;
     }
 };
